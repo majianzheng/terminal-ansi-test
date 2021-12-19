@@ -1,0 +1,11 @@
+
+.DS_Store
+.mvn
+*.iml
+*.log
+*.class
+.idea
+.vscode
+target
+dependency-reduced-pom.xml
+.flattened-pom.xml
