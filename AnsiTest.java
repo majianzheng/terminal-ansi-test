@@ -13,8 +13,7 @@ public class AnsiTest {
 			for (int j = 0; j < 16; ++j) {
 				int number = i * 16 +j;
 				String str = String.format("%3d", number);
-				System.out.print(String.format("\033[48;5;%dm %s", number, str));
-				System.out.print("\033[0m");
+				System.out.print(String.format("\033[48;5;%dm %s\033[0m", number, str));
 			}
 			System.out.println();
 		}
